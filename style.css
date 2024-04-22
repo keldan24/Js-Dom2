@@ -1,0 +1,41 @@
+body, html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#color-id{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+#change-color-btn{
+    width: 140px;
+    height: 50px;
+    background-color: #eb7134;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: 600;
+    color: white;
+}
+
+#change-color-btn:active{
+    background-color: #e8833a;
+    color: white;
+}
